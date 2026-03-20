@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Qurifolio Style Portfolio</title>
+  <meta name="description" content="Portfolio UI/UX dengan layout hero besar, about section gelap, dan featured project." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <a class="brand" href="#home">
+        <span class="brand__icon"></span>
+        Qurifolio
+      </a>
+
+      <nav class="nav" aria-label="Navigasi utama">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Project</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero--photo" id="home">
+        <div class="hero__shape hero__shape--orange" aria-hidden="true"></div>
+        <div class="hero__photo-frame">
+          <img class="hero__photo" src="assets/Katanya.png" alt="Foto profil saya" />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__content">
+          <p class="section-tag">Hello</p>
+          <h2>I'M FIRMAN HIDAYATULLAH</h2>
+          <p>
+            Passionate UI/UX designer dedicated to crafting exceptional digital experiences. Dengan perhatian ke detail dan pendekatan user-centric, saya mengubah ide menjadi interface yang intuitif dan kuat secara visual.
+          </p>
+
+          <div class="stats">
+            <div class="stat">
+              <strong>10+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div class="stat">
+              <strong>64+</strong>
+              <span>Completed Project</span>
+            </div>
+            <div class="stat">
+              <strong>151+</strong>
+              <span>Happy Client</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__visual">
+          <div class="about__grid" aria-hidden="true"></div>
+          <div class="about__portrait"></div>
+          <div class="about__line about__line--one"></div>
+          <div class="about__line about__line--two"></div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="section-heading">
+          <p class="section-tag section-tag--dark">Portfolio</p>
+          <h2>Featured Project</h2>
+        </div>
+
+        <article class="project-card">
+          <div class="project-card__preview">
+            <div class="dashboard">
+              <div class="dashboard__top"></div>
+              <div class="dashboard__chart"></div>
+              <div class="dashboard__widgets">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card__copy">
+            <span class="label">UI Design</span>
+            <h3>Bitx - Crypto Dashboard Design</h3>
+            <p>
+              Konsep dashboard finansial dengan hierarki data yang jelas, panel modular, dan presentasi visual yang bersih untuk menunjukkan kemampuan desain produk digital.
+            </p>
+            <a href="#contact">Start a Project</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section-heading section-heading--left">
+          <p class="section-tag section-tag--dark">Services</p>
+          <h2>Apa yang saya butuhkan untuk melengkapi website ini</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Konten Personal</h3>
+            <p>Nama lengkap, role, bio singkat, deskripsi layanan, dan CTA yang ingin dipakai.</p>
+          </article>
+          <article class="service-card">
+            <h3>Asset Visual</h3>
+            <p>Foto profil, thumbnail project, logo pribadi, favicon, dan CV final.</p>
+          </article>
+          <article class="service-card">
+            <h3>Data Project</h3>
+            <p>Minimal 3 project: judul, ringkasan, tools, hasil, dan link demo atau Behance.</p>
+          </article>
+          <article class="service-card">
+            <h3>Kontak Aktif</h3>
+            <p>Email, WhatsApp, LinkedIn, GitHub/Behance, serta keputusan apakah perlu form aktif.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div>
+        <p class="section-tag section-tag--dark">Contact</p>
+        <h2>Website dasar sudah siap untuk diisi versi final.</h2>
+      </div>
+
+      <div class="footer__links">
+        <a href="mailto:hello@qurifolio.dev">hello@qurifolio.dev</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Behance</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
